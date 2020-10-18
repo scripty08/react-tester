@@ -1,24 +1,24 @@
-# @scripty/react-skeleton
+# @scripty/react-tester
 
 # Description
 
-react-skeleton component.
+react-tester component.
 
 # Usage
 ```bash
-npm install -s @scripty/react-skeleton
+npm install -s @scripty/react-tester
 ```
 
 ##### Client: Example.jsx
 
 ```javascript
 import React from 'react';
-import { ReactSkeleton } from '@scripty/react-skeleton';
+import { ReactTester } from '@scripty/react-tester';
 
 export const Example = () => {
 
     return (
-        <ReactSkeleton />
+        <ReactTester />
     );
 };
 ```

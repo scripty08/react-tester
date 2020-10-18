@@ -3,15 +3,15 @@ import '@atlaskit/css-reset';
 import { hot } from 'react-hot-loader/root';
 
 import { Description, Code, Component, Properties } from '@scripty/react-examples';
-import { ReactSkeleton } from '../../src';
+import { ReactTester } from '../../src';
 
 const Example = () => {
 
     const code = `import React from 'react';
-import { ReactSkeleton } from '@scripty/react-skeleton';
+import { ReactTester } from '@scripty/react-tester';
 
 const App = () => {
-    return <ReactSkeleton color={'#000'}/>
+    return <ReactTester color={'#000'}/>
 }
 `
     const propertiesData = [
@@ -24,9 +24,9 @@ const App = () => {
     ]
 
     return (
-        <Description title={'React Skeleton'}>
+        <Description title={'ReactTester'}>
             <Component>
-                <ReactSkeleton color={'#000'}/>
+                <ReactTester color={'#000'}/>
             </Component>
 
             <Code>
